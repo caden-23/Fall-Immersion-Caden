@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/04fea5b3ad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+            <img src="images/THGP_Logo.png" class="logo" alt="THGPLogo">
+            <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portifolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+            </nav>
+            <div class="header-text">
+                <p>Game Producer</p>
+                <h1>Hello, I'm<span> Caden Lee</span><br>From Richmond, CA</h1>
+            </div>
+         </div>
+      </div>
+    <!------About Section------>
+      <div id="about">
+        <div class="container">
+            <div class="row">
+           <div class="about-col-1"></div>
+             <img src="images/SKY.jpg">
+           </div>
+             <div class="about-col-2"></div>
+             <h1 class="sub-title">About Me</h1>
+             <p>I was born in Richmond CA, and was raised in AZ for 7 years,
+              I always wanted to know more about tech and everything about it.
+             </p>
+             <div class="tab-titles">
+              <p class="tab-Links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-Links " onclick="opentab('experience')">Experience</p>
+              <p class="tab-Links " onclick="opentab('education')">Education</p>
+             </div>
+            <!------skills------->
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Work</span><br>lots of hands on work but I also work with tech</li>
+                <li><span>Game Development</span><br>I have only made 1 game for now but I will learn
+                to make more.</li>
+                <li><span>learning off the fly</span><br>I understand most thing that people tell me off
+                the top of my head.</li>
+                <body>
+                  <h3>Light/Dark mode</h3>
+                  <button onclick="darkMode()">Toggle Dark Mode</button>
+                  <script src="script.js"></script>
+              </body>
+              </ul>
+            </div>
+
+            <!------experience------>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>Game Development</span><br>Computer Secince</li>
+                <li><span>Alliant</span><br>Tech Development</li>
+                <li><span>compter sceince</span><br>Coding for Games</li>
+              </ul>
+            </div>
+
+          <!-----education------>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>High school</span><br>El cerrtio High school</li>
+                <li><span>Grades</span><br>A and B student</li>
+                <li><span>Classes</span><br>I understand coding and math really easy</li>
+                <body>
+                  <h3>Counter App</h3>
+                  <button onclick="counter()">Counter Button</button>
+                  <p id="counter-number">0</p>
+                  <script src="script.js"></script>
+              </body>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-------serivces--------->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="serivces-list">
+
+      <div>  
+        <a href="#"></a>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web design</h2>
+        <p>Im still learning how to do web design so it can be the best it can be but if you ever needed help or wanted a extra person
+          I can also help.
+        </p>
+        <a href="#">Learn more</a>
+      </div>
+
+        <div>
+          <a href="#"></a><i class="fa-solid fa-crop"></i>
+          <h2>Team player</h2>
+          <p>I mainly like to work by myself but if I ever need help or need to work in a group then I will help out as mush as I can to 
+            help the group and myself to learn something new.
+          </p>
+          <a href="#">Learn more</a>
+           </div>
+
+           <div>
+            <a href="#"></a><i class="fa-brands fa-app-store"></i>
+            <h2>Hard working</h2>
+            <p>I'm a very hard working person that get almost everything done before time. I make sure to get my things done then finish
+              anything eles that I need to get done.
+            </p>
+            <a href="#">Learn more</a>
+             </div>
+
+            <div>
+              <a href="#"></a><i class="fa-brands fa-app-store"></i>
+              <h2>Beat Maker</h2>
+              <p>
+              I learned how to make beat how to make beats for learning codes and alos a good mentor named Khairee and he 
+              taught me everything I know.
+              </p>
+              <a href="#">Learn more</a>
+               </div>
+
+      </div>
+    </div>
+  </div>
+<!-----------------portfolio-------------->
+<div id="portfolio">
+  <div class="container">
+    <div class="sub-title">My Portfolio</div>
+    <div class="work-list">
+
+      <div class="work">
+        <img src="images/Game .PNG">
+        <div class="layer">
+          <h3>Dokkan Battle (My inspiration)</h3>
+          <p>The game that I always played as a kid was this game called dokkan battle which was a dragon ball style game that 
+            was very easy to understand and really fun because it was a game lots of people talked about during its prime.
+            This game made me what to learn how to make a game like that when I grew up.
+          </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="images/GOKU.PNG">
+        <div class="layer">
+          <h3>Dragon ball legends</h3>
+          <p> This game is also a inspiration becasue later after finding out that this was a game I loved playing it with friends 
+            becasue this game was very big and always made it to the front page all the time. I loved to game so much that I made art 
+            from the game and this is how it turned out. 
+          </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      
+      <div class="work">
+        <img src="images/LIFE.PNG">
+        <div class="layer"><h3>Dragon ball legends</h3>
+          <p>This is also another art I made after they made this unit playable this is also very new because people understand that he 
+            is really broken and is at the same time trash. Lots of people say that this game will die but sometimes I lokk at the game and 
+            say that same things and I really started to understand why they think the game will die later.
+          </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+      </div>
+
+      <div class="work">
+        <img src="images/Beats.jpg">
+        <div class="layer"><h3>Beat Making</h3>
+          <p> I learned how to make beat how to make beats for learning codes and alos a good mentor named Khairee and he 
+            taught me everything, I love listening to music so much so when Khairee taught me how to make beats I learned really fast.
+            Now I only listen to the beat and try to remix the beat in my head and then when I get to the studio I just make
+            the beat come to life.
+          </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+<!-----------Contact-------------->
+<div id="contact">
+  <div class="container">
+     <div class="row">
+        <div class="contact-left">
+             <h1 class="sub-title">Contact Me</h1>
+             <p><i class="fa-solid fa-paper-plane"></i>Contact caden.lee@hgs.hiddengeniusproject.org</p>
+             <p><i class="fa-solid fa-mobile-button"></i></i>510-672-4013</p>
+             <div class="social-icons">
+              <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://x.com/CadenLee120609"><i class="fa-brands fa-x-twitter"></i></a>
+             </div>
+             <a href="images/everything.png" download class="btn btn2">Download Cv</a>
+           </div>
+         <div cllass="contact-right">
+          <form id = "my form"> 
+            <label for="fname">First Name</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="Lname">Last Name</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="Email">Email</label><br>
+            <input type="text" id="email" name="email" required><br><br>
+            <label for="messesage">Messesage</label><br>
+            <input type="text" id="messesage" name="messesage" required><br><br>
+            <textarea id="Messesage" name="messesage" required></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+          <span id="msg"></span>
+        </div>
+     </div>
+   </div>
+   <div class="copyright">
+    <p>Copyright © Caden. Made with easy codes </p>
+   </div>
+</div>
+
+  <script>
+    var tabLinks = document.getElementsByClassName("tab-Links");
+    var tabContents = document.getElementsByClassName("tab-contents");
+  
+    function opentab(tabName){
+      for(var tabLink of tabLinks){
+        tabLink.classList.remove("active-link");
+      }
+  
+      for(var tabContent of tabContents){
+        tabContent.classList.remove("active-tab");
+      }
+  
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabName).classList.add("active-tab");
+    }
+  </script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbx1Ywga2k0OdNFasNTZOXYcJjd-ViyIGOewQxCawtJfuVccRqpdj221usk1WYulH1dV/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response=> {
+      mgs.innerHTML = "Message sent successfully"
+      setTimeout(function(){
+        msg.innerHTML = ""
+      },5000)
+      form.reset()
+    })
+    .catch(error => console.error('Error', error.message))
+  })
+</script>
+ </script>
+ </body>
+</html>
